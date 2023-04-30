@@ -1,0 +1,72 @@
+ :root {
+	--body-bg: #f8f8f8;
+	--register-box-bg: #ffffff;
+	--input-bg: #f2f2f2;
+	--submit-bg: #4CAF50;
+	--submit-bg-hover: #4CAF50;
+	--heading-color: #333;
+	--text-color: #333;
+	--link-color: #333;
+}
+
+.register-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	padding: 40px;
+	background-color: var(--login-box-bg);
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.register-box h1 {
+	margin: 0 0 30px;
+	padding: 0;
+	font-size: 36px;
+	color: var(--heading-color);
+}
+
+
+.register-box input {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: var(--input-bg);
+	border-radius: 5px;
+	margin-bottom: 20px;
+	font-size: 18px;
+}
+
+
+.register-box input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background-color: var(--submit-bg);
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.register-box input[type="submit"]:hover {
+	background-color: var(--submit-bg-hover);
+}
+
+
+
+.login-link button{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+	border: none;
+	text-decoration: none;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
